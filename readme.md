@@ -36,18 +36,5 @@ This project aims to predict stock market prices using signal processing and dee
 ## 🚀 Results
 The model successfully learns patterns from stock data and predicts future prices based on time-frequency analysis.
 
-# CNN architecture diagram
-graph TD
-    A[Input<br>Spectrogram Image] --> B[Conv2D Layer<br>32 Filters, 3x3, ReLU]
-    B --> C[Flatten Layer<br>1D Array]
-    C --> D[Dense Layer<br>64 Units, ReLU]
-    D --> E[Output Layer<br>Predicted Price]
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#bfb,stroke:#333,stroke-width:2px
-    style D fill:#fbb,stroke:#333,stroke-width:2px
-    style E fill:#ff9,stroke:#333,stroke-width:2px
-
 ## 🔗 Data Source
 - Yahoo Finance (yfinance API)
