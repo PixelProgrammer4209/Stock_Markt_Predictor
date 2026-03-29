@@ -31,7 +31,22 @@ This project aims to predict stock market prices using signal processing and dee
 ## 📁 Files in Repository
 - `app.ipynb` → Main implementation in Google Colab  
 - `app.py` → Python script version  
-- `requirements.txt` → Required libraries  
+- `requirements.txt` → Required libraries
+- `photos` → Diagrams
+
+## 📈 Project Visualizations
+
+### 1. Time Series Plot
+![Time Series](photos/time_series.png)
+
+### 2. Frequency Spectrum
+![Frequency Spectrum](photos/frequency_spectrum.png)
+
+### 3. Spectrogram
+![Spectrogram](photos/spectrogram.png)
+
+### 4. CNN Architecture
+![CNN Architecture](photos/cnn_architecture.png)
 
 ## 🚀 Results
 The model successfully learns patterns from stock data and predicts future prices based on time-frequency analysis.
